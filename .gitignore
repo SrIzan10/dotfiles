@@ -2,3 +2,7 @@
 **/noctalia.css
 niri/.config/niri/noctalia.kdl
 fish/.config/fish/fish_variables
+btop/.config/btop/themes/noctalia.theme
+foot/.config/foot/themes/noctalia
+qt/.config/qt5ct/colors/noctalia.conf
+qt/.config/qt6ct/colors/noctalia.conf
