@@ -1,0 +1,14 @@
+[[mgr.prepend_keymap]]
+on = "<C-g>"
+run = "shell -- dragon-drop -x -i -T %h"
+desc = "Drag the hovered file out with dragon"
+
+[[mgr.prepend_keymap]]
+on = "M"
+run = "plugin mount"
+desc = "Show mounted/external devices"
+
+[[mgr.prepend_keymap]]
+on = ["g", "k"]
+run = "cd '/run/user/1000/gvfs/mtp:host=Amazon_Kindle_Paperwhite_Signature_Edition_GN433W07429602S6/Internal Storage'"
+desc = "Go to Kindle (MTP)"

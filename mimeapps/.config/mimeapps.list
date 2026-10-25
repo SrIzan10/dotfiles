@@ -1,0 +1,30 @@
+[Default Applications]
+x-scheme-handler/discord=vesktop.desktop
+text/html=helium.desktop
+x-scheme-handler/http=helium.desktop
+x-scheme-handler/https=helium.desktop
+x-scheme-handler/about=helium.desktop
+x-scheme-handler/unknown=helium.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-LQN8U3.desktop
+x-scheme-handler/mid=userapp-Thunderbird-LQN8U3.desktop
+message/rfc822=userapp-Thunderbird-LQN8U3.desktop
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-V5G8U3.desktop
+x-scheme-handler/claude-cli=claude-code-url-handler.desktop
+x-scheme-handler/rpi-imager=com.raspberrypi.rpi-imager-uri-handler.desktop
+inode/directory=thunar.desktop
+application/x-compressed-tar=peazip.desktop
+application/x-tar=peazip.desktop
+application/zip=peazip.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-LQN8U3.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-LQN8U3.desktop;
+message/rfc822=userapp-Thunderbird-LQN8U3.desktop;
+x-scheme-handler/net.thunderbird=userapp-Thunderbird-V5G8U3.desktop;
+application/vnd.efi.iso=org.gnome.Boxes.desktop;peazip.desktop;
+image/jpeg=swappy.desktop;helium.desktop;
+video/webm=mpv.desktop;
+text/x-python3=dev.zed.Zed.desktop;
+audio/flac=mpv.desktop;
+application/x-compressed-tar=peazip.desktop;
+application/x-tar=peazip.desktop;
