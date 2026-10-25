@@ -1,2 +1,33 @@
 [shell]
 polkit_agent = true
+corner_radius_scale = 0 # square corners everywhere
+popup_shadows = false
+
+# Flat, full-width strip glued to the top edge
+[bar.default]
+position             = "top"
+smart_auto_hide      = true # OLED: only show on empty workspaces
+reserve_space        = false # let windows use the full height when the bar hides
+thickness            = 26
+background_opacity   = 1.0
+shadow               = false
+radius               = 0
+concave_edge_corners = false
+margin_ends          = 0
+margin_edge          = 0
+padding              = 8
+widget_spacing       = 10
+hover_highlight      = false
+capsule              = false
+font_weight          = 400
+
+start  = ["workspaces", "active_window"]
+center = []
+end    = ["tray", "wallpaper", "power_profile", "network", "volume", "battery", "clock"]
+
+[widget.workspaces]
+style = "minimal" # plain numbers, no pills
+
+[widget.clock]
+format = "{:%a %d %b  %H:%M}"
+tooltip_format = "{:%A, %B %d, %Y}"

@@ -1,5 +1,5 @@
     layout {
-        gaps 6 // Gap between windows
+        gaps 4 // Small gap between windows
         center-focused-column "never" // Don’t auto-center focused column
 
         background-color "transparent" // <- needed for noctalia-shell to set wallpaper
@@ -10,8 +10,18 @@
             proportion 0.66667
         }
 
+        // Plain window borders instead of a floating focus ring
+        // (colours come from noctalia.kdl)
         focus-ring {
-            width 2 // Thinner highlight (colours come from noctalia.kdl)
+            off
+        }
+
+        border {
+            width 2
+        }
+
+        shadow {
+            off
         }
 
         struts {}

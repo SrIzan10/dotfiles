@@ -7,3 +7,8 @@
     mode "2560x1440@359.979" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
 }
+
+// Built-in Samsung OLED laptop panel (1920x1200, 14")
+output "eDP-1" {
+    scale 1 // Default was 1.25; native resolution, no fractional scaling
+}
