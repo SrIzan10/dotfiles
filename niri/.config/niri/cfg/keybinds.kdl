@@ -18,7 +18,7 @@ binds {
     Mod+Ctrl+E                          hotkey-overlay-title="Emoji Picker" { spawn-sh "noctalia msg panel-toggle launcher /emo"; }
     Mod+Ctrl+Space                      hotkey-overlay-title="Wallpaper Selector" { spawn-sh "noctalia msg panel-toggle wallpaper"; }
     Mod+Ctrl+Shift+Space                hotkey-overlay-title="Noctalia Settings" { spawn-sh "noctalia msg settings-toggle"; }
-    Mod+Shift+Space                     hotkey-overlay-title="Toggle Bar" { spawn-sh "noctalia msg bar-toggle"; }
+    Mod+Ctrl+Alt+Space                  hotkey-overlay-title="Toggle Bar" { spawn-sh "noctalia msg bar-toggle"; }
 
     // Copilot key (sends Super+Shift+F23): fzf a directory, open Claude Code there
     Mod+Shift+F23                       hotkey-overlay-title="Claude Code in Directory" { spawn "foot" "/home/srizan/.config/niri/claude-fzf-dir.sh"; }
@@ -123,6 +123,9 @@ binds {
     Mod+WheelScrollUp                   cooldown-ms=150 { focus-workspace-up; }
     Mod+Shift+WheelScrollDown           { focus-column-right; }
     Mod+Shift+WheelScrollUp             { focus-column-left; }
+
+    // ─── Keyboard layout (us / es) ───
+    Mod+Shift+Space                     hotkey-overlay-title="Switch Keyboard Layout" { switch-layout "next"; }
 
     // ─── Screenshots ───
     // Screenshot key on this keyboard sends Super+Shift+S

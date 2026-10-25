@@ -23,7 +23,7 @@ font_weight          = 400
 
 start  = ["workspaces", "active_window"]
 center = []
-end    = ["tray", "wallpaper", "power_profile", "network", "volume", "battery", "clock"]
+end    = ["tray", "keyboard_layout", "wallpaper", "power_profile", "network", "volume", "battery", "clock"]
 
 [widget.workspaces]
 style = "minimal" # plain numbers, no pills

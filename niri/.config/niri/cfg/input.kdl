@@ -4,9 +4,7 @@
 input {
     keyboard {
         xkb {
-            //If you want to overwrite your keyboard layout,
-            // uncomment the line below and change the layout accordingly.
-            //layout "us" // Use the American keyboard layout
+            layout "us,es" // US first (default), Spanish (Spain) second
         }
         numlock // Enable numlock on startup
     }
