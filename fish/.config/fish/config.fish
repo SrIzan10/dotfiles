@@ -36,6 +36,13 @@ if status is-interactive
     function mark_prompt_start --on-event fish_prompt
         echo -en "\e]133;A\e\\"
     end
+
+    # Remember the last cwd so new terminals can open there (see niri/foot-last-cwd.sh)
+    function save_last_cwd --on-variable PWD
+        set -l state_dir (set -q XDG_STATE_HOME; and echo $XDG_STATE_HOME; or echo $HOME/.local/state)
+        mkdir -p $state_dir
+        echo $PWD >$state_dir/last-cwd
+    end
 end
 
 # terminal-wakatime setup

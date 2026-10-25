@@ -7,7 +7,7 @@ binds {
     Mod+Shift+Slash                     hotkey-overlay-title="Show Keybindings" { show-hotkey-overlay; }
 
     // ─── Applications ───
-    Mod+Return                          hotkey-overlay-title="Terminal: Foot" { spawn "foot"; }
+    Mod+Return                          hotkey-overlay-title="Terminal: Foot" { spawn "/home/srizan/.config/niri/foot-last-cwd.sh"; }
     Mod+Shift+F                         hotkey-overlay-title="File Manager (default)" { spawn-sh "gtk-launch $(xdg-mime query default inode/directory)"; }
     Mod+Shift+B                         hotkey-overlay-title="Browser (default)" { spawn-sh "gtk-launch $(xdg-settings get default-web-browser)"; }
 
