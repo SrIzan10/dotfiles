@@ -31,3 +31,6 @@ style = "minimal" # plain numbers, no pills
 [widget.clock]
 format = "{:%a %d %b  %H:%M}"
 tooltip_format = "{:%A, %B %d, %Y}"
+
+[lockscreen]
+allow_empty_password = true # Enter on an empty field triggers face unlock (howdy)
